@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   
+   ===== to float two columns independantly:
+   
+      html, body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+#content {
+  height: 100%;
+}
+#left {
+  float: left;
+  width: 30%;
+  background: red;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+#right {
+  float: left;
+  width: 70%;
+  background: blue;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+        
+   
+   
+   ========================================================================== */
+   
+   
+   
+   
+   
+   
+@font-face{
+	font-family: 'HARRINGT';
+	src: url('../fonts/HARRINGT.TTF');
+}
+
+
+html {
+	height: 100%;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
+background: rgb(240,249,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* ===========================
+	Set variables
+	=======================*/
+	
+	// Colours
+	
+	$pale_blue:rgba(181, 211, 242,1);
+	$pale_yellow: rgba(255,252,191,1);
+	$pale_pink:rgba(252, 189, 193,1);
+	$pale_green:rgba(192, 244, 182,1);
+
+body {
+	    background-attachment: fixed;
+	    margin: 0;
+	    background-repeat: no-repeat;
+
+	    background-image: url("../img/sparkling_water.JPG");
+	    
+
+ }
+
+
+header{
+	font-family:'HARRINGT', arial;
+	width: 100%;
+	height: 1.2em; 
+	text-align: center;
+	font-size: 4em;
+	font-weight: 900;
+	padding-top: .8em;
+	color: #0a058a;
+	text-shadow: 2px 2px 2px grey;
+   
+}
+
+main{
+	position: relative;
+	width: 90%;
+	margin: auto;
+	margin-top: .5em;
+	}
+
+section{
+	position: relative;
+	width: 90%;
+	margin: auto;
+	margin-top: 1em;
+	min-height: 40px;
+}
+
+.intro{
+	background-color: $pale_yellow;
+}
+
+.location{
+	background-color: $pale_pink;
+}
+
+.inside{
+	background-color: $pale_blue;
+}
+
+.around{
+	background-color: $pale_green;
+}
+
+.photo{
+	position: relative;
+	width: 35%;
+	
+}
+
+
+
