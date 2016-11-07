@@ -4,3 +4,5 @@
 TO DO LIST
 
 1. Make the site multilingual 🇬🇧 
+2. envelope logo with email ability at top with flags
+3. Links to useful stuff like ferry timetables etc

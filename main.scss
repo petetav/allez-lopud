@@ -97,9 +97,9 @@ table {
 
 html {
 	height: 100%;
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
     
     h1{
 	    font-size: 2em;
@@ -119,19 +119,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
 	
 	// Colours
 	
-	$pale_blue:rgba(181, 211, 242,1);
-	$pale_yellow: rgba(255,252,191,1);
-	$pale_pink:rgba(252, 189, 193,1);
-	$pale_green:rgba(192, 244, 182,1);
-	$header_color: #0a058a;
-	$text_color: #0a0566;
+$section_bg:rgba(154,179,209, .7);
+$header_color: #0a058a;
+$text_color: #0a0566;
+	
 body {
     background-attachment: fixed;
     background-size: cover;
     margin: 0; 
     background-image:url("../img/sparkling_water.jpg");	
     font-family: 'Itim', cursive;
+    font-family: 'Droid Sans', sans-serif;
     font-size: 1.2em;  
+    line-height: 1.2em;
     color:$text_color;  
 
  }
@@ -143,11 +143,11 @@ header{
 	margin: 0;
 	font-family:'HARRINGT', arial;
 	width: 100%;
-	height: .8em; 
+	height: .3em; 
 	text-align: center;
 	font-size: 4em;
 	font-weight: 900;
-	padding-top: .5em;
+	padding-top: .8em;
 	color: $header_color;
 	text-shadow: 2px 2px 2px grey;
 	background-color: #aac5df;
@@ -162,7 +162,7 @@ main{
 	position: relative;
 	width: 90%;
 	margin: auto;
-	top: 5.5em;
+	top: 2.9em;
 	}
 
 section{
@@ -170,7 +170,7 @@ section{
 	margin-top: 1em;
 	min-height: 40px;
 	border-radius: .4em;
-	padding: 1em;
+	padding: .3em;
 }
 
 .dotcom{
@@ -179,6 +179,7 @@ section{
 
 .spacephoto{
 	position: relative;
+	top: 3em;
 	width: 25vw;
 	height:auto;
 	margin: 1em;
@@ -188,8 +189,7 @@ section{
 
 .intro{
 	width: 50vw;
-	background-color: rgba(154,179,209, .7);
-	
+	background-color: $section_bg;	
 }
 
 .villa_front{
@@ -200,16 +200,44 @@ section{
 	
 }
 
-.location{
-	background-color: $pale_pink;
+#envelope{
+	position:absolute;
+	top: 0;
+	right: 0;
+	z-index: 120;
 }
 
+.location{
+	background-color: $section_bg;
+	position: relative;
+	width: 65vw;	
+}
+
+/*Google Map iframe */
+.mapWrapper {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 75%;
+}
+ 
+.mapWrapper iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+/*end of map css */
+
+
 .inside{
-	background-color: $pale_blue;
+	background-color: $section_bg
 }
 
 .around{
-	background-color: $pale_green;
+	background-color: $section_bg;
 }
 
 .photo{
