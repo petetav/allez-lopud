@@ -143,7 +143,6 @@ header{
 	margin: 0;
 	font-family:'HARRINGT', arial;
 	width: 100%;
-	height: .3em; 
 	text-align: center;
 	font-size: 4em;
 	font-weight: 900;
@@ -205,6 +204,16 @@ section{
 	top: 0;
 	right: 0;
 	z-index: 120;
+}
+
+.sun_icon{
+	position: relative;
+	margin-top: -0.5em;
+	left: 5vw;
+	width: 1em;
+	margin-left: .1em;
+	height: auto;
+	float: left;
 }
 
 .location{
