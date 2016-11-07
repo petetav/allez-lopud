@@ -101,6 +101,10 @@ html {
     font-size: 1em;
     line-height: 1.4;
     
+    h1{
+	    font-size: 2em;
+}
+    
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
 background: rgb(240,249,255); /* Old browsers */
 background: -moz-linear-gradient(-45deg,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6-15 */
@@ -119,52 +123,81 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
 	$pale_yellow: rgba(255,252,191,1);
 	$pale_pink:rgba(252, 189, 193,1);
 	$pale_green:rgba(192, 244, 182,1);
-
+	$header_color: #0a058a;
+	$text_color: #0a0566;
 body {
-	    background-attachment: fixed;
-	    margin: 0;
-	    background-repeat: no-repeat;
-
-	    background-image: url("../img/sparkling_water.JPG");
-	    
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0; 
+    background-image:url("../img/sparkling_water.jpg");	
+    font-family: 'Itim', cursive;
+    font-size: 1.2em;  
+    color:$text_color;  
 
  }
 
 
 header{
+	position: fixed;
+	top: 0;
+	margin: 0;
 	font-family:'HARRINGT', arial;
 	width: 100%;
-	height: 1.2em; 
+	height: .8em; 
 	text-align: center;
 	font-size: 4em;
 	font-weight: 900;
-	padding-top: .8em;
-	color: #0a058a;
+	padding-top: .5em;
+	color: $header_color;
 	text-shadow: 2px 2px 2px grey;
+	background-color: #aac5df;
+	
+	box-shadow: 0px 10px 10px 0px #aac5df;
+	z-index: 100;
    
 }
+
 
 main{
 	position: relative;
 	width: 90%;
 	margin: auto;
-	margin-top: .5em;
+	top: 5.5em;
 	}
 
 section{
 	position: relative;
-	width: 90%;
-	margin: auto;
 	margin-top: 1em;
 	min-height: 40px;
+	border-radius: .4em;
+	padding: 1em;
 }
 
 .dotcom{
 	font-size: .5em;
 }
 
+.spacephoto{
+	position: relative;
+	width: 25vw;
+	height:auto;
+	margin: 1em;
+	float: right;	
+}
+
+
 .intro{
-	background-color: $pale_yellow;
+	width: 50vw;
+	background-color: rgba(154,179,209, .7);
+	
+}
+
+.villa_front{
+	position: relative;
+	margin:auto;
+	margin-top: 1em;
+	width: 50vw;
+	
 }
 
 .location{

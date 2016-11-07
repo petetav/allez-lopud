@@ -118,73 +118,105 @@ html {
   /* IE6-9 fallback on horizontal gradient */
 }
 
+/* line 104, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+html h1 {
+  font-size: 2em;
+}
+
 /* ===========================
 	Set variables
 	=======================*/
-/* line 123, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 128, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 body {
   background-attachment: fixed;
+  background-size: cover;
   margin: 0;
-  background-repeat: no-repeat;
-  background-image: url("../img/sparkling_water.JPG");
+  background-image: url("../img/sparkling_water.jpg");
+  font-family: 'Itim', cursive;
+  font-size: 1.2em;
+  color: #0a0566;
 }
 
-/* line 134, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 140, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 header {
+  position: fixed;
+  top: 0;
+  margin: 0;
   font-family: 'HARRINGT', arial;
   width: 100%;
-  height: 1.2em;
+  height: .8em;
   text-align: center;
   font-size: 4em;
   font-weight: 900;
-  padding-top: .8em;
+  padding-top: .5em;
   color: #0a058a;
   text-shadow: 2px 2px 2px grey;
+  background-color: #aac5df;
+  box-shadow: 0px 10px 10px 0px #aac5df;
+  z-index: 100;
 }
 
-/* line 147, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 161, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 main {
   position: relative;
   width: 90%;
   margin: auto;
-  margin-top: .5em;
+  top: 5.5em;
 }
 
-/* line 154, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 168, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 section {
   position: relative;
-  width: 90%;
-  margin: auto;
   margin-top: 1em;
   min-height: 40px;
+  border-radius: .4em;
+  padding: 1em;
 }
 
-/* line 162, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 176, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .dotcom {
   font-size: .5em;
 }
 
-/* line 166, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
-.intro {
-  background-color: #fffcbf;
+/* line 180, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+.spacephoto {
+  position: relative;
+  width: 25vw;
+  height: auto;
+  margin: 1em;
+  float: right;
 }
 
-/* line 170, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 189, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+.intro {
+  width: 50vw;
+  background-color: rgba(154, 179, 209, 0.7);
+}
+
+/* line 195, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+.villa_front {
+  position: relative;
+  margin: auto;
+  margin-top: 1em;
+  width: 50vw;
+}
+
+/* line 203, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .location {
   background-color: #fcbdc1;
 }
 
-/* line 174, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 207, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .inside {
   background-color: #b5d3f2;
 }
 
-/* line 178, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 211, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .around {
   background-color: #c0f4b6;
 }
 
-/* line 182, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 215, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .photo {
   position: relative;
   width: 35%;
