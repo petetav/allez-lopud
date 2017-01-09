@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 18, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 30, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 35, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+body {
+  line-height: 1;
+}
+
+/* line 35, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 40, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 38, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 45, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 42, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 51, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 46, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 57, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ========End of CSS Reset =========== */
+@font-face {
+  font-family: 'HARRINGT';
+  src: url("../fonts/HARRINGT.TTF");
+}
+
+/* line 74, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+h1 {
+  font-size: 4em;
+}
+
+/* line 81, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+body {
+  background: url("../img/sparkling_water.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 88, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+.title {
+  position: fixed;
+  width: 5em;
+  height: 100%;
+  color: #0a058a;
+  background-color: #f1df59;
+  text-align: center;
+  font-family: 'HARRINGT', arial;
+  padding: 0 1em 0 0;
+  font-weight: 900;
+  /*text-shadow: 2px 2px 2px grey;*/
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  z-index: 100;
+}
+
+/* line 107, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/new.scss */
+.spacephoto {
+  position: relative;
+  float: right;
+  margin: 7em 4em 2em 2em;
+  width: 25vw;
+  height: auto;
+}

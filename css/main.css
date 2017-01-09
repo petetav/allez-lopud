@@ -36,24 +36,24 @@ body {
   line-height: 1;
 }
 
-/* line 34, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 35, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 38, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 41, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 42, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 46, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -99,7 +99,7 @@ table {
   src: url("../fonts/HARRINGT.TTF");
 }
 
-/* line 98, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 99, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 html {
   height: 100%;
   color: #222;
@@ -118,7 +118,7 @@ html {
   /* IE6-9 fallback on horizontal gradient */
 }
 
-/* line 104, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 105, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 html h1 {
   font-size: 2em;
 }
@@ -126,7 +126,10 @@ html h1 {
 /* ===========================
 	Set variables
 	=======================*/
-/* line 126, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/*================
+	Classes
+===================*/
+/* line 133, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 body {
   background-attachment: fixed;
   background-size: cover;
@@ -139,7 +142,7 @@ body {
   color: #0a0566;
 }
 
-/* line 140, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 148, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 header {
   position: fixed;
   top: 0;
@@ -157,53 +160,56 @@ header {
   z-index: 100;
 }
 
-/* line 160, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 169, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 main {
+  max-width: 1000px;
   position: relative;
   width: 90%;
   margin: auto;
-  top: 2.9em;
+  margin-top: 10em;
+  background-color: green;
 }
 
-/* line 167, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 178, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 section {
   position: relative;
-  margin-top: 1em;
+  margin-top: 10em;
   min-height: 40px;
   border-radius: .4em;
   padding: .3em;
 }
 
-/* line 175, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 186, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .dotcom {
   font-size: .5em;
 }
 
-/* line 179, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
-.spacephoto {
-  position: relative;
-  top: 3em;
-  width: 25vw;
-  height: auto;
-  margin: 1em;
-  float: right;
-}
-
-/* line 189, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 192, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .intro {
-  width: 50vw;
-  background-color: rgba(154, 179, 209, 0.7);
+  display: inline-block;
+  width: 30vw;
+  background-color: rgba(183, 183, 183, 0.8);
+  border: 1px solid;
+  margin-top: 50px;
 }
 
-/* line 194, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 201, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .villa_front {
   position: relative;
   margin: auto;
   margin-top: 1em;
-  width: 50vw;
+  width: 30vw;
 }
 
-/* line 202, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 210, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+.spacephoto {
+  position: relative;
+  width: 25vw;
+  height: auto;
+  margin: 1em;
+}
+
+/* line 220, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 #envelope {
   position: absolute;
   top: 0;
@@ -211,7 +217,7 @@ section {
   z-index: 120;
 }
 
-/* line 209, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 227, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .sun_icon {
   position: relative;
   margin-top: -0.5em;
@@ -222,15 +228,15 @@ section {
   float: left;
 }
 
-/* line 219, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 237, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .location {
-  background-color: rgba(154, 179, 209, 0.7);
+  background-color: rgba(183, 183, 183, 0.8);
   position: relative;
   width: 65vw;
 }
 
 /*Google Map iframe */
-/* line 226, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 246, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .mapWrapper {
   position: relative;
   height: 0;
@@ -238,8 +244,8 @@ section {
   padding-bottom: 75%;
 }
 
-/* line 233, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
-.mapWrapper iframe {
+/* line 253, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+.maps iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -248,17 +254,17 @@ section {
 }
 
 /*end of map css */
-/* line 244, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 265, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .inside {
-  background-color: rgba(154, 179, 209, 0.7);
+  background-color: rgba(183, 183, 183, 0.8);
 }
 
-/* line 248, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 269, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .around {
-  background-color: rgba(154, 179, 209, 0.7);
+  background-color: rgba(183, 183, 183, 0.8);
 }
 
-/* line 252, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 273, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .photo {
   position: relative;
   width: 35%;
