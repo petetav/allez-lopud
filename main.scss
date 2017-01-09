@@ -122,7 +122,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
 	
 // $section_bg:rgba(154,179,209, .7);
 $section_bg: rgba(183, 183, 183, .8);
-$header_color: #0a058a;
+$header_color: #18058a;
 $text_color: #0a0566;
 	
 	
@@ -158,7 +158,6 @@ header{
 	color: $header_color;
 	text-shadow: 2px 2px 2px grey;
 	background-color: #aac5df;
-	
 	box-shadow: 0px 10px 10px 0px #aac5df;
 	z-index: 100;
 	
@@ -172,7 +171,8 @@ main{
 	width: 90%;
 	margin: auto;
 	margin-top: 10em;
-	background-color: green;
+	background-color: navy;
+	
 	}
 
 section{
@@ -187,7 +187,16 @@ section{
 	font-size: .5em;
 }
 
-
+.header_photo{
+	
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: aqua;
+	
+}
 
 .intro{
 	display: inline-block;
