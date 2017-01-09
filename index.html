@@ -9,25 +9,25 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         
-        <!-- Place favicon.ico in the root directory -->
-        <!-- favicon coutesy of http://www.favicon.cc/ -->
-<link href="img/sun_favicon.ico"  rel="icon" type="image/x-icon" />
+ <!-- favicon coutesy of http://www.favicon.cc/ -->
+<link href="img/sun_favicon.ico" rel="icon" type="image/x-icon" />
 
-        
+  <!-- Fonts -->      
 	   <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
 	   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
+	   
+	   <script type="text/javascript" src="js/vendor/jquery-3.1.1.js"></script>
+	   
+	   <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
     
 <body>
  
 <header>
-	<div class="sun_icon">
-		<img src="img/sun_icon2.png" alt="sun_icon2" width=100% height=100%>
-	</div>
-	<p>Lopud Villas<span class="dotcom">.com</span></p>
-<div id=envelope>
+		<p>Lopud Villas<span class="dotcom">.com</span></p>
+	
+	<div id=envelope>
 
 	<a href="mailto:allezsunshine@gmail.com">
 
@@ -40,13 +40,7 @@
     
 <main>
 	
-		<section>
-			<div class="spacephoto">
-<img src="img/lopud_from_space400x637.png" alt="lopud_from_space400x637" width="100%">
-		</div>
-		</section>
-		
-      <section class="intro">
+	 <section class="intro">
 	    <!--  <h2>About <span style="font-family:'HARRINGT';">Lopud Villas</span></h2> -->
 
 	      <p>  Lopud is a small island in the Adriatic sea a few miles north west of Dubrovnik. The island can only be reached by boat and there are no cars. </p>
@@ -55,15 +49,26 @@
 	<img src="img/villa_front.jpg" alt="villa_front" width="100%"> 
       </div>     
       </section>
-    
- <section class="location">
+	
+	
+	<section>
+			<div class="spacephoto">
+<img src="img/lopud_from_space400x637.png" alt="lopud_from_space400x637" width="100%">
+		</div>
+		</section>
+		
+     
+      
+       <section class="location">
+	 
+	<div class="mapWrapper"></div>
 	   
-<div class="mapWrapper">	    
+<div class="maps">	    
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76373.82964629336!2d17.943440711590757!3d42.7002220725826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDQxJzEyLjUiTiAxN8KwNTUnNTQuNSJF!5e1!3m2!1sen!2suk!4v1478514031856" allowfullscreen></iframe>
-</div>
-     	</section>
+	</div>
+ </section>
 	  
-	 <section class="inside">
+		 <section class="inside">
 		indoor photos
 		</section>  
 	
@@ -71,53 +76,37 @@
 		photos from around Lopud
 	</section>
 	
-	<!-- <section class="location">
-	    maps etc go here ☀✈ <span style="font-size:3em">☀️</span>
-     </section>
-	 --> 
-	<section class="inside">
-		indoor photos
-	</section>  
-	
-	<section class="around">
-		photos from around Lopud
-	</section>
+	    
+</main>
+<footer>
+</footer>  
 
-	 <section class="location">
-	    maps etc go here
-     </section>
-	  
-	<section class="inside">
-		indoor photos
-	</section>  
-	
-	<section class="around">
-		photos from around Lopud
-	</section>
-	 <section class="location">
-	    maps etc go here
-     </section>
-	  
-	<section class="inside">
-		indoor photos
-	</section>  
-	
-	<section class="around">
-		photos from around Lopud
-	</section>
-
-
-	 
     
-     </main>
-    <footer>
-    </footer>  
-        
+    <!-- Stop iframe scrolling initially -->
+
+    
+   <script> 
+  $(document).ready(function() {
+    $('.maps').click(function () {
+        $('.maps iframe').css("pointer-events", "auto");
+    });
+    
+    $( ".maps" ).mouseleave(function() {
+      $('.maps iframe').css("pointer-events", "none"); 
+    });
+ });     
+    </script>
+
+    <!-- end of iframe hack -->  
+
+    
+    
+         
 
 
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="js/jquery-3.1.1.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
