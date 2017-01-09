@@ -153,21 +153,21 @@ header {
   font-size: 4em;
   font-weight: 900;
   padding-top: .8em;
-  color: #0a058a;
+  color: #18058a;
   text-shadow: 2px 2px 2px grey;
   background-color: #aac5df;
   box-shadow: 0px 10px 10px 0px #aac5df;
   z-index: 100;
 }
 
-/* line 169, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 168, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 main {
   max-width: 1000px;
   position: relative;
   width: 90%;
   margin: auto;
   margin-top: 10em;
-  background-color: green;
+  background-color: navy;
 }
 
 /* line 178, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
@@ -184,7 +184,17 @@ section {
   font-size: .5em;
 }
 
-/* line 192, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 190, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+.header_photo {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+}
+
+/* line 201, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .intro {
   display: inline-block;
   width: 30vw;
@@ -193,7 +203,7 @@ section {
   margin-top: 50px;
 }
 
-/* line 201, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 210, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .villa_front {
   position: relative;
   margin: auto;
@@ -201,7 +211,7 @@ section {
   width: 30vw;
 }
 
-/* line 210, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 219, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .spacephoto {
   position: relative;
   width: 25vw;
@@ -209,7 +219,7 @@ section {
   margin: 1em;
 }
 
-/* line 220, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 229, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 #envelope {
   position: absolute;
   top: 0;
@@ -217,7 +227,7 @@ section {
   z-index: 120;
 }
 
-/* line 227, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 236, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .sun_icon {
   position: relative;
   margin-top: -0.5em;
@@ -228,7 +238,7 @@ section {
   float: left;
 }
 
-/* line 237, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 246, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .location {
   background-color: rgba(183, 183, 183, 0.8);
   position: relative;
@@ -236,7 +246,7 @@ section {
 }
 
 /*Google Map iframe */
-/* line 246, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 255, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .mapWrapper {
   position: relative;
   height: 0;
@@ -244,7 +254,7 @@ section {
   padding-bottom: 75%;
 }
 
-/* line 253, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 262, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .maps iframe {
   position: absolute;
   top: 0;
@@ -254,17 +264,17 @@ section {
 }
 
 /*end of map css */
-/* line 265, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 274, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .inside {
   background-color: rgba(183, 183, 183, 0.8);
 }
 
-/* line 269, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 278, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .around {
   background-color: rgba(183, 183, 183, 0.8);
 }
 
-/* line 273, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
+/* line 282, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-lopud/main.scss */
 .photo {
   position: relative;
   width: 35%;
